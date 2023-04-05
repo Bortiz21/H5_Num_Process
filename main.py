@@ -33,9 +33,9 @@ def total_amount(file):
 
 # Calculate the average of all numbers in the file and display them to the screen
 def average(sum_of_values, number_of_values):
-    average = (sum_of_values / number_of_values)
-    if average != 0:
-        return average
+    average_f = (sum_of_values / number_of_values)
+    if average_f != 0:
+        return average_f
     else:
         print("Error, please try again!")
 
